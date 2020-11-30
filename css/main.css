@@ -86,7 +86,7 @@ p {
 .offer {
   width: 575px;
   letter-spacing: 0.05em;
-}
+  }
 
 .title {
   font-size: 37px;
@@ -208,6 +208,10 @@ p {
     width: 960px;
   }
 
+  .wrapper {
+    margin-top: 147px%;
+  }
+
 }
 
 /*768px - 992px*/
@@ -216,6 +220,7 @@ p {
     width: 720px;
   }
   .wrapper {
+    margin-top: 100px;
     flex-direction: column;
   }
   .offer {
@@ -251,6 +256,10 @@ p {
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
+  }
+
+  .wrapper {
+    margin-top: 80px;
   }
 
   .form {
