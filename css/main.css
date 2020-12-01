@@ -212,6 +212,10 @@ p {
     margin-top: 147px%;
   }
 
+  p {
+    width: auto;
+  }
+
 }
 
 /*768px - 992px*/
