@@ -12,14 +12,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header id="header" class="header">
       <div class="container">
-        <img src="img/logo.png" alt="wayup" class="logo" />
+        <img src="img/logo.png" alt="wayup" class="logo animate__animated animate__tada" />
         <div class="wrapper">
-          <div class="offer">
+          <div class="offer animate__animated animate__fadeInLeft">
             <h1 class="title">
               С помощью верстки я создам ту жизнь, о которой
               <span>мечтаю!</span>
@@ -28,31 +32,31 @@
               Мои стремления + настойчивость позволят мне достичь чего угодно. Я
               не верю в это. Я знаю это на 100%. Меня не остановить!
             </p>
-            <a href="#" class="btn">Двигаться к мечте!</a>
+            <a href="#mail" class="btn">Двигаться к мечте!</a>
           </div>
-          <img src="img/travel.png" alt="picture travel" class="travel" />
+          <img src="img/travel.png" alt="picture travel" class="travel animate__animated animate__fadeInRight" />
         </div>
       </div>
     </header>
     <section id="learn" class="learn">
       <div class="container">
-        <h2 class="section-title">Что меня ждет впереди</h2>
+        <h2 class="section-title animate__animated">Что меня ждет впереди</h2>
         <div class="expectations">
-          <div class="expectation exp-freetime">
+          <div class="expectation animate__animated exp-freetime">
             <img src="img/icon.jpg" alt="icon" />
             <h3 class="expectation-title">Свободное время</h3>
             <p class="expectation-text">
               Мне нужно свободное время на семью и самое настоящее
             </p>
           </div>
-          <div class="expectation">
+          <div class="expectation animate__animated exp-travel">
             <img src="img/icon2.jpg" alt="icon2" />
             <h3 class="expectation-title">Яркие путешествия</h3>
             <p class="expectation-text">
               Работать откуда угодно - что может быть лучше?
             </p>
           </div>
-          <div class="expectation">
+          <div class="expectation animate__animated exp-value">
             <img src="img/icon3.jpg" alt="icon3" />
             <h3 class="expectation-title">Создание ценности</h3>
             <p class="expectation-text">
@@ -64,8 +68,8 @@
     </section>
     <section id="mail" class="mail">
       <div class="container">
-        <h2 class="section-title">Форма заказа билета в будущее</h2>
-        <form action="#" class="form">
+        <h2 class="section-title animate__animated">Форма заказа билета в будущее</h2>
+        <form action="#" class="form animate__animated">
           <input
             type="Имя"
             placeholder="Имя"
@@ -103,5 +107,7 @@
         <p class="credits">© Все мои мечты защищены моим трудолюбием</p>
       </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
